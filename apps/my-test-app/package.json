@@ -1,19 +1,15 @@
 {
   "name": "my-test-app",
-  "main": "expo-router/entry",
+  "main": "index.js",
   "version": "0.0.1",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-native": "*",
-    "@testing-library/react-native": "*",
-    "metro-config": "*",
-    "react-native": "*",
-    "expo": "*",
-    "react-native-svg": "*",
-    "react-native-web": "*"
-  },
   "scripts": {
     "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . apps/my-test-app && cp package-lock.json apps/my-test-app",
     "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/my-test-app"
-  }
+  },
+  "dependencies": {
+    "expo": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {}
 }
