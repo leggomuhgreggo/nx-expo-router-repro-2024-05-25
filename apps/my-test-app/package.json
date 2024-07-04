@@ -1,6 +1,6 @@
 {
   "name": "my-test-app",
-  "main": "expo-router/entry",
+  "main": "index.js",
   "version": "0.0.1",
   "private": true,
   "scripts": {
