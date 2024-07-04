@@ -2,7 +2,9 @@
   "name": "@nx-expo-router-repro-2024-05-25/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "npx --yes patch-package"
+  },
   "private": true,
   "dependencies": {
     "@expo/metro-config": "0.18.8",
